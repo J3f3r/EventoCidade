@@ -57,3 +57,8 @@ A arquitetura do projeto segue o padrão de camadas de mercado (Controlador, Ser
 3. Execute o comando:
    ```bash
    mvn spring-boot:run
+4. A API estará disponível em http://localhost:8080.
+
+5. O console do banco de dados H2 poderá ser acessado em      	http://localhost:8080/h2-console.
+6. Executando a Suíte de Testes (JUnit)
+	```mvn test
